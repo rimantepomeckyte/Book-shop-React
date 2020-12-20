@@ -50,7 +50,7 @@ const Main = () => {
                         <Header countCartItems={cartItems.length}/>
                         <div className="main-body">
                             <BooksList onAdd={onAdd} books={books}/>
-                            <Cart onAdd={onAdd} onRemove={onRemove} cartItems={cartItems} setCartItems={setCartItems} oneItemRemove={oneItemRemove}/>
+                            <Cart onAdd={onAdd} onRemove={onRemove} cartItems={cartItems} setCartItems={setCartItems} />
                         </div>
                     </Route>
                 </Switch>
