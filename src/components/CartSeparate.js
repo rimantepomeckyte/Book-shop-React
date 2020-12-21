@@ -19,7 +19,7 @@ const CartSeparate = ({cartItems, onAdd, onRemove, setCartItems, onItemRemove}) 
                 {cartItems.length === 0 && <div>Krepšelis tuščias</div>}
             </div>
             {cartItems.map((item) => (
-                <div key={item.id} className="row border-bottom border-light py-3 cart-separate-div">
+                <div key={item.id} className="row border-bottom border-light py-3">
                     <img className='col-2 cart-separate-img' src={item.img}/>
                     <div className="col">
                         <p className='row pb-0 mb-0'><strong>{item.title}</strong></p>

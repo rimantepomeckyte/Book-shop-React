@@ -6,7 +6,7 @@ const Header = ({countCartItems}) => {
             <div className='logo-div'>
                 <img className="logo" src="https://i.pinimg.com/originals/5f/fb/de/5ffbdeceb84323decd76084b2efca958.png"
                      alt="logo"/>
-                <h2 className="d-flex align-items-center ml-1">knygos.com</h2>
+                <h2 className="d-flex align-items-center ml-1">Knygos</h2>
             </div>
             <div>
                 <a className="mr-3"  href="/">Pagrindinis</a>
