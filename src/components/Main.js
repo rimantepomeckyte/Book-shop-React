@@ -1,18 +1,22 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import Header from "./Header";
 import BooksList from "./BooksList";
-import Cart from "./Cart";
+import CartAsside from "./CartAsside";
 import data from "../data/data";
 import {
     BrowserRouter as Router,
     Switch,
     Route
 } from "react-router-dom";
-import ls from 'local-storage';
+import CartSeparate from "./CartSeparate";
+
 
 const Main = () => {
     const {books} = data;
-    const [cartItems, setCartItems] = useState([]);
+    const [cartItems, setCartItems] = useState(() => {
+        const localData = localStorage.getItem("cartItems");
+       return localData ? JSON.parse(localData) : [];
+    });
 
     const onAdd = (book) => {
         console.log(book.likutis)
@@ -38,19 +42,27 @@ const Main = () => {
         }
     }
 
+    const onItemRemove = (deleteItem) =>{
+        setCartItems(cartItems.filter((book) => book !== deleteItem));
+    }
+
+    useEffect(() => {
+       localStorage.setItem("cartItems", JSON.stringify(cartItems))
+    }, [cartItems])
+
     return (
         <Router>
             <div>
                 <Switch>
                     <Route path="/cart">
                         <Header countCartItems={cartItems.length}/>
-                        <Cart onAdd={onAdd} onRemove={onRemove} cartItems={cartItems} setCartItems={setCartItems}/>
+                        <CartSeparate onAdd={onAdd} onRemove={onRemove} cartItems={cartItems} setCartItems={setCartItems} onItemRemove={onItemRemove}/>
                     </Route>
                     <Route path="/">
                         <Header countCartItems={cartItems.length}/>
                         <div className="main-body">
                             <BooksList onAdd={onAdd} books={books}/>
-                            <Cart onAdd={onAdd} onRemove={onRemove} cartItems={cartItems} setCartItems={setCartItems} />
+                            <CartAsside onAdd={onAdd} onRemove={onRemove} cartItems={cartItems} setCartItems={setCartItems} />
                         </div>
                     </Route>
                 </Switch>

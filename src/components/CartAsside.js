@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Cart = ({cartItems, onAdd, onRemove, setCartItems}) => {
+const CartAsside = ({cartItems, onAdd, onRemove, setCartItems}) => {
     const itemsPrice = cartItems.reduce((a, c) => a + c.price * c.qty, 0);
     const shippingPrice = itemsPrice > 24.99 ? 0 : 3.45;
     const totalPrice = itemsPrice + shippingPrice;
@@ -61,4 +61,4 @@ const Cart = ({cartItems, onAdd, onRemove, setCartItems}) => {
     );
 };
 
-export default Cart;
+export default CartAsside;
