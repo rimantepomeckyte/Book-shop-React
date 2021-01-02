@@ -22,10 +22,8 @@
     <list default="true" id="90e222d9-6012-485d-bf04-21af795de886" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CartAsside.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CartAsside.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CartSeparate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CartSeparate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +51,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../React_BookShop" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -70,7 +68,8 @@
       <workItem from="1608467113837" duration="5916000" />
       <workItem from="1608534932270" duration="471000" />
       <workItem from="1608540923565" duration="6538000" />
-      <workItem from="1608553844595" duration="4681000" />
+      <workItem from="1608553844595" duration="5045000" />
+      <workItem from="1609589791335" duration="626000" />
     </task>
     <servers />
   </component>
