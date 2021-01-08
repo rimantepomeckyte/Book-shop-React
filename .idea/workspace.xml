@@ -20,7 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90e222d9-6012-485d-bf04-21af795de886" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +52,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Webas/Su React/e-shop-with-cart" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -67,6 +71,7 @@
       <workItem from="1608540923565" duration="6538000" />
       <workItem from="1608553844595" duration="5045000" />
       <workItem from="1609589791335" duration="2232000" />
+      <workItem from="1610097149432" duration="1901000" />
     </task>
     <servers />
   </component>
@@ -86,10 +91,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="579" y="140" key="FileChooserDialogImpl" timestamp="1608570424193">
+    <state x="579" y="140" key="FileChooserDialogImpl" timestamp="1610098239415">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="579" y="140" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1608570424193" />
+    <state x="579" y="140" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1610098239415" />
     <state x="405" y="91" width="794" height="528" key="dock-window-1" timestamp="1608277594244">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
